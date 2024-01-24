@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustardCards.API", "CustardCards.API\CustardCards.API.csproj", "{17FE4CB6-AA63-4BBA-B8CC-E72FCF658DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustardCards.Application", "CustardCards.Application\CustardCards.Application.csproj", "{D41180F0-799C-4871-85BF-081F769F8F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustardCards.Data", "CustardCards.Data\CustardCards.Data.csproj", "{9C1AF4E3-3ECA-4393-B099-A47E68835E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustardCards.Models", "CustardCards.Models\CustardCards.Models.csproj", "{337B96CB-3533-48FC-B8DB-F83A3606F7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustardCards.Test", "CustardCards.Test\CustardCards.Test.csproj", "{5D98D5C8-E554-45BF-B728-B00AF85E0F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustardCards.UI", "CustardCards.UI\CustardCards.UI.csproj", "{DCA2D034-A22E-43E1-BDB4-999BCA5501E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17FE4CB6-AA63-4BBA-B8CC-E72FCF658DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FE4CB6-AA63-4BBA-B8CC-E72FCF658DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FE4CB6-AA63-4BBA-B8CC-E72FCF658DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FE4CB6-AA63-4BBA-B8CC-E72FCF658DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41180F0-799C-4871-85BF-081F769F8F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41180F0-799C-4871-85BF-081F769F8F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41180F0-799C-4871-85BF-081F769F8F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41180F0-799C-4871-85BF-081F769F8F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1AF4E3-3ECA-4393-B099-A47E68835E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1AF4E3-3ECA-4393-B099-A47E68835E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1AF4E3-3ECA-4393-B099-A47E68835E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1AF4E3-3ECA-4393-B099-A47E68835E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337B96CB-3533-48FC-B8DB-F83A3606F7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337B96CB-3533-48FC-B8DB-F83A3606F7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337B96CB-3533-48FC-B8DB-F83A3606F7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337B96CB-3533-48FC-B8DB-F83A3606F7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D98D5C8-E554-45BF-B728-B00AF85E0F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D98D5C8-E554-45BF-B728-B00AF85E0F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D98D5C8-E554-45BF-B728-B00AF85E0F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D98D5C8-E554-45BF-B728-B00AF85E0F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA2D034-A22E-43E1-BDB4-999BCA5501E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA2D034-A22E-43E1-BDB4-999BCA5501E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA2D034-A22E-43E1-BDB4-999BCA5501E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA2D034-A22E-43E1-BDB4-999BCA5501E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF2396AC-80E0-4FE1-87B1-02CAB980CB28}
+	EndGlobalSection
+EndGlobal

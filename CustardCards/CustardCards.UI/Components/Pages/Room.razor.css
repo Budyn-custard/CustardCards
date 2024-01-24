@@ -1,0 +1,86 @@
+﻿.room-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #111; /* Background color from the home page */
+    color: #fff;
+    min-height: 100vh;
+}
+
+.top-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-list {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+    .user-list h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .user-list ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .user-list li {
+        margin-bottom: 5px;
+    }
+
+.pie-chart-placeholder {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pointing-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+    .pointing-cards h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .pointing-cards .card {
+        width: 80px;
+        height: 120px;
+        padding: 10px;
+        background-color: #F4D03F; /* Custard Yellow */
+        color: #111;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+
+        .pointing-cards .card:hover {
+            background-color: #F1C40F; /* Hover color */
+        }
+
+@media (max-width: 768px) {
+    .pointing-cards .card {
+        width: 60px;
+        height: 90px;
+        font-size: 18px;
+    }
+}
